@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 55px;
+}
+
+.nav-bar {
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(94, 115, 145); 
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: fixed;
+
+}
+
+a.btn-sobremim {
+    color: white;
+    text-decoration: none;
+    position: fixed;
+}
+
+a.btn-sobremim:hover {
+    color: aquamarine;
+}
+
+a.btn-project {
+    color: white;
+    text-decoration: none;
+    position: fixed;
+}
+
+a.btn-project:hover {
+    color: aquamarine;
+}
+
+a.btn-contact {
+    color: white;
+    text-decoration: none;
+    position: fixed;
+}
+
+a.btn-contact:hover {
+    color: aquamarine;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid green;
+    justify-content: center;
+    margin: 100px
+}
+
+.img-div {
+    text-align: center;
+}
+
+.container-main {
+    color: white;
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+header h1 {
+    color: rgb(52, 171, 41);
+    text-align: center;
+    margin-top: -90px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+
+}
+/* botao voltar para o topo */ 
+
+a.btn-top {
+    color: white;
+    text-decoration: none;
+ 
+}
+
+a.btn-top:hover {
+    color: aquamarine;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+
+.img-git {
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.img-linkd {
+    margin-left: 10px;
+}
+
+.img-insta {
+    margin-left: 2px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.img-p1 {
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+margin-right: 15px;
+}
+
+.img-p2 {
+    margin-left: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.img-p3 {
+    margin-left: 15px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* botões para os links, Git, Linkd, insta */
+.btn-p1 {
+    margin-top: 1px;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+.btn-p2 {
+    margin-top: 1px;
+    margin-left: 31px;
+    padding-right: 20px;
+}
+
+.btn-p3 {
+    margin-top: 1px;
+    margin-left: 22px;
+    padding-right: 20px;
+}
